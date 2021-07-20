@@ -2,3 +2,4 @@
 config.json
 themeparks.db
 themeparks.db
+*.db
