@@ -74,8 +74,15 @@ else {
 		console.log('!q sfgam command')
 		var selectedpark = Parks.SixFlagsGreatAmerica;
 	}	else if (command === 'bgw') {
+		console.log('!q bgw command')
 		var selectedpark = Parks.BuschGardensWilliamsburg;
 		// sleep(5000).then(() => {
+	} else if (command === 'hershey' || command === 'hp') {
+		console.log('!q hershey command')
+		var selectedpark = Parks.HersheyPark;
+	} else if (command === 'sfa') {
+		console.log('!q sfa command')
+		var selectedpark = Parks.SixFlagsAmerica;
 	}
 	else {
 		msg.reply(command + ' is not available yet.')
