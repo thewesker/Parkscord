@@ -22,9 +22,9 @@ for (const park in ThemeParks.Parks) {
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
-var goodchannel = "bot_commandse";
+var goodchannel = "bot_commands";
 client.on('message', msg => {
-if (msg.channel.name == goodchannel)
+if (msg.channel.name !== goodchannel)
 	return;
 else {
   if (!msg.content.startsWith(prefix)) return;
