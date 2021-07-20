@@ -73,8 +73,10 @@ else {
 	} else if (command === 'sfgam') {
 		console.log('!q sfgam command')
 		var selectedpark = Parks.SixFlagsGreatAmerica;
-	}	
+	}	else if (command === 'bgw') {
+		var selectedpark = Parks.BuschGardensWilliamsburg;
 		// sleep(5000).then(() => {
+	}
 	else {
 		msg.reply(command + ' is not available yet.')
 		return;
