@@ -6,3 +6,5 @@ themeparks.db
 node_modules/
 package-lock.json
 .nova/
+Parkscord.sublime-project
+Parkscord.sublime-workspace

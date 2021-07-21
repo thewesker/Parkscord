@@ -84,8 +84,11 @@ client.on("message", (msg) => {
     } else if (command === "sfft") {
       console.log("!q sfft command");
       var selectedpark = Parks.SixFlagsFiestaTexas;
+    } else if (command === "dw" || command === "dolly") {
+      console.log("!q dw command");
+      var selectedpark = Parks.Dollywood;
     } else {
-      msg.reply(command + " is not available yet.");
+      msg.reply(command + " is not available yet or is not a valid park.");
       return;
     }
     console.log(selectedpark);
