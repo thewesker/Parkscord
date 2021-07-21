@@ -1,0 +1,12 @@
+{
+	"name": "Parkscord",
+	"version": "1.0.0",
+	"description": "Discord bot to display theme park queue times.",
+	"scripts": {
+		"start": "node parkscord.js" 
+	},
+	"dependencies": {
+		"themeparks": "5.1.48",
+		"discord.js": "12.5.3"
+	}
+}

@@ -3,3 +3,5 @@ config.json
 themeparks.db
 themeparks.db
 *.db
+node_modules/
+package-lock.json

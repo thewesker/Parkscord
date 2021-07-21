@@ -21,7 +21,7 @@ for (const park in ThemeParks.Parks) {
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
-var goodchannel = "bot_commands";
+var goodchannel = config.channel;
 client.on("message", (msg) => {
   if (msg.channel.name !== goodchannel) return;
   else {
