@@ -257,7 +257,6 @@ client.on("message", (msg) => {
           });
           embed.setTitle(selectedpark.Name + " Queue Times");
           const embed2 = new Discord.MessageEmbed()
-            .setColor("#0099ff")
             .setTitle(selectedpark.Name + " Queue Times");
           rideTimes.slice(26, 51).forEach((ride) => {
             if (ride.status == "Operating") {
@@ -295,7 +294,6 @@ client.on("message", (msg) => {
             }
           });
           const embed3 = new Discord.MessageEmbed()
-            .setColor("#0099ff")
             .setTitle(selectedpark.Name + " Queue Times");
           rideTimes.slice(51, rides).forEach((ride) => {
             if (ride.status == "Operating") {
